@@ -9,8 +9,6 @@ const Buttons = ({buttons}) => {
         medium: "px-6 py-3",
         large: "px-8 py-4"
     }
-    // className={"bg-white text-[#6683D9] border-[#6683D9] text-sm font-thin py-2 px-4 rounded-full border"}
-    console.log(buttons);
     return (<div>
             {buttons.map((button) => {
                 const buttonColor = themeClass[button.button_color];
