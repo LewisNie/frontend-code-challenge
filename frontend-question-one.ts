@@ -26,7 +26,7 @@ function simulateScroll(banners: string[], scroll: number): ScrollResult {
 }
 
 
-console.log(simulateScroll(["A", "B"], 2));
+console.log(simulateScroll(["A", "B"], 0));
 
 console.log(simulateScroll(["A", "B", "C"], 3));
 
